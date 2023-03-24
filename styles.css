@@ -40,7 +40,8 @@ p span {
     
    
 }
-#ad {
+
+.ad {
     border-radius: 5px;
     object-fit: contain;
     width: auto;
