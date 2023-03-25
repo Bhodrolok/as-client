@@ -5,11 +5,12 @@ class ProxyReplica {
     constructor() {
         this._index = 0; 
         this._backups = [
-            "http://aspxy1.bhodrolok.xyz",
-            "http://aspxy2.bhodrolok.xyz",
-            "http://aspxy3.bhodrolok.xyz",
-            "http://aspxy4.bhodrolok.xyz",
-            "http://aspxy5.bhodrolok.xyz",
+            "https://amazing-limiter-378022.uw.r.appspot.com",
+           // "http://aspxy1.bhodrolok.xyz",
+            //"http://aspxy2.bhodrolok.xyz",
+            //"http://aspxy3.bhodrolok.xyz",
+            //"http://aspxy4.bhodrolok.xyz",
+            //"http://aspxy5.bhodrolok.xyz",
             "https://amazing-limiter-378022.uw.r.appspot.com"
         ]
     }
