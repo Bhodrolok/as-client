@@ -41,5 +41,9 @@ document.querySelectorAll('.ad').forEach((ad, i) => {
     }, 500*i);
 });
 
+function switchAd() {
+    document.getElementById('switcher').src = "script.js";
+}
+
 
 
