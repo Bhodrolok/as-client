@@ -13,10 +13,15 @@
     </p>
 
     <div  id= "imageScaling">
-      <img class="ad" alt="Brought to you by adshare: changing the word one ad at a time" width="500" height="500" loading="lazy"/>
+      <img id= "switcher" class="ad" alt="Brought to you by adshare: changing the word one ad at a time" width="500" height="500" loading="lazy"/>
     </div>
 
     <button onclick="myFunction()">Click Me!</button>
+    <script>
+      function myFunction() {
+      document.getElementById('switcher').src = "script.js";
+  } 
+  </script>
 
     <script type="text/javascript" src="script.js"></script>
   </body>

@@ -43,6 +43,3 @@ document.querySelectorAll('.ad').forEach((ad, i) => {
 
 
 
-function myFunction() {
-    document.getElementById('switcher').src = "images/background.jpg";
-    }
