@@ -40,3 +40,9 @@ document.querySelectorAll('.ad').forEach((ad, i) => {
         });
     }, 500*i);
 });
+
+
+
+function myFunction() {
+    document.getElementById('switcher').src = "images/background.jpg";
+    }

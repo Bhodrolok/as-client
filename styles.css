@@ -40,7 +40,11 @@ p span {
     
    
 }
-
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
 .ad {
     border-radius: 5px;
     object-fit: contain;
@@ -56,3 +60,27 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+  }
+  .button1 {
+    background-color: rgb(57, 211, 83); 
+    color: black; 
+    border: 6px solid #012c03;
+  }
+  
+  .button1:hover {
+    background-color: #012702;
+    color: white;
+  }
