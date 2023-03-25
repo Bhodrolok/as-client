@@ -10,7 +10,7 @@ class ProxyReplica {
             "http://aspxy3.bhodrolok.xyz",
             "http://aspxy4.bhodrolok.xyz",
             "http://aspxy5.bhodrolok.xyz",
-            "https://amazing-limiter-378022.uw.r.appspot.com",
+            "https://amazing-limiter-378022.uw.r.appspot.com"
         ]
     }
 
