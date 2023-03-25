@@ -10,7 +10,7 @@ class ProxyReplica {
             "http://aspxy3.bhodrolok.xyz",
             "http://aspxy4.bhodrolok.xyz",
             "http://aspxy5.bhodrolok.xyz",
-            "https://amazing-limiter-378022.uw.r.appspot.com",
+            "https://amazing-limiter-378022.uw.r.appspot.com"
         ]
     }
 
@@ -40,3 +40,10 @@ document.querySelectorAll('.ad').forEach((ad, i) => {
         });
     }, 500*i);
 });
+
+function switchAd() {
+    document.getElementById('switcher').src = "script.js";
+}
+
+
+
