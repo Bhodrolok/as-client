@@ -29,17 +29,14 @@ class ProxyReplica {
 const proxy = new ProxyReplica();
 
 document.querySelectorAll('.ad').forEach((ad, i) => {
-    console.log(ad)
-    setTimeout(() => {
-        ad.setAttribute('src', `${proxy.current}/ad?t=${Date.now()}`);
-        ad.addEventListener('error', () => {
-            if (i === 0) {
-                // only advance to next replica once if this is the first ad
-                proxy.next();
-            }
-            ad.setAttribute('src', `${proxy.current}/ad?t=${Date.now()}`);
-        });
-    }, 500*i);
+    ad.setAttribute('src', `${proxy.current}/ad?i=${i}`);
+    ad.addEventListener('error', () => {
+        if (i === 0) {
+            // only advance to next replica once if this is the first ad
+            proxy.next();
+        }
+        ad.setAttribute('src', `${proxy.current}/ad?i=${i}`);
+    });
 });
 
 function switchAd() {
