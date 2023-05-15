@@ -1,53 +1,43 @@
-#Test{
-    background-color: rgba(154, 177, 211, 0.167);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
-    font-size: 72px;
-    color: rgb(4, 1, 0);
-  
-}
-
 #title1{
     /* background-color: rgba(154, 177, 211, 0.167); */
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
-    font-size: 72px;
+    font-size: 42px;
     color: rgb(4, 1, 0);
-  
+}
+
+#maintext1{
+  font-size: large;
+  font-style: italic;
 }
 
 p{
     text-align: left;
     margin-left: 25%;
     margin-right: 25%;
-    margin-top: 2%;
-    font-size: 50px;
     color: rgb(4, 1, 0);
     
 }
+
 p span {
     background-color:rgba(255, 240, 245, 0.75);
-    
-  }
-#imageScaling
-{
-  object-fit: cover;
-  width: 100%;
-  height: 500px;
-
-    
-    
-   
 }
+
+#imageScaling{
+  object-fit: cover;
+  width: 90%;
+  height: auto;
+}
+
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
+
 .ad {
-    border-radius: 5px;
+    border-radius: 25px;
     object-fit: contain;
     width: auto;
     height: 100%;
@@ -72,7 +62,7 @@ body{
     font-size: 16px;
     margin: 4px 2px;
     transition-duration: 0.4s;
-    cursor: pointer;
+    cursor: crosshair;
     
   }
   .button1 {
@@ -84,4 +74,23 @@ body{
   .button1:hover {
     background-color: #012702;
     color: white;
+  }
+
+  .button2 {
+    background-color:tan; 
+    color: black; 
+    border: 6px solid #012c03;
+  }
+  
+  .button2:hover {
+    background-color: #012702;
+    color: white;
+    cursor: pointer;
+  }
+
+  .button3 {
+    background-color: salmon;
+    color:powderblue;
+    font-size: large;
+    cursor:all-scroll;
   }
