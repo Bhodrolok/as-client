@@ -1,10 +1,13 @@
 class ProxyReplica {
     /**
-     * Circular linked list for defined server URLs 
+     * Circular linked list for defined proxy server URLs 
      */
     constructor() {
         this._index = 0; 
         this._backups = [
+            "https://aspxy1.bhodrolok.xyz",
+            "https://aspxy2.bhodrolok.xyz",
+            "https://aspxy3.bhodrolok.xyz",
             "https://adshare-proxy-server.onrender.com"
         ]
     }
